@@ -32,6 +32,7 @@ pub use interface::HWIClient;
 pub mod error;
 pub mod interface;
 pub mod types;
+mod doctest;
 
 #[cfg(test)]
 mod tests {
